@@ -1,0 +1,196 @@
+/* ===== RESET ===== */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ===== BODY ===== */
+body{
+    background:#f4f6f9;
+    color:#333;
+}
+
+/* ===== HEADER ===== */
+header{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+    padding:30px 20px;
+}
+
+#Profile-Photo img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:4px solid white;
+    margin-bottom:10px;
+}
+
+/* ===== NAVIGATION ===== */
+nav{
+    margin-top:15px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 10px;
+    font-weight:bold;
+    transition:0.3s;
+}
+
+nav a:hover{
+    color:#38bdf8;
+}
+
+/* ===== SECTIONS ===== */
+section{
+    padding:40px 10%;
+}
+
+h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+/* ===== ABOUT ===== */
+#about-section p{
+    max-width:700px;
+    margin:auto;
+    line-height:1.6;
+}
+
+/* ===== PROJECT CARDS ===== */
+.card-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:white;
+    padding:20px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* ===== BUTTON ===== */
+.btn{
+    display:inline-block;
+    margin-top:10px;
+    padding:8px 15px;
+    background:#2563eb;
+    color:white;
+    text-decoration:none;
+    border-radius:5px;
+    transition:0.3s;
+}
+
+.btn:hover{
+    background:#1e40af;
+}
+
+/* ===== SKILLS ===== */
+.Skills{
+    padding:40px 10%;
+}
+
+.Skills-card{
+    background:white;
+    padding:25px;
+    border-radius:10px;
+    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+}
+
+.Skills ul{
+    margin-bottom:20px;
+    margin-left:20px;
+}
+
+/* ===== CONTACT ===== */
+.contact{
+    text-align:center;
+    padding:20px;
+    background:#e2e8f0;
+}
+
+form{
+    text-align:center;
+}
+
+form input{
+    width:250px;
+    padding:8px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+
+button{
+    padding:8px 20px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#1e40af;
+}
+
+/* ===== SOCIAL LINKS ===== */
+.social-links{
+    text-align:center;
+    margin:20px;
+}
+
+.social-links a{
+    text-decoration:none;
+    color:#2563eb;
+    margin:0 10px;
+    font-weight:bold;
+}
+
+.social-links a:hover{
+    color:#1e40af;
+}
+
+/* ===== FOOTER ===== */
+footer{
+    text-align:center;
+    padding:15px;
+    background:#0f172a;
+    color:white;
+}
+
+/* ===== RESPONSIVE ===== */
+@media(max-width:768px){
+
+section{
+    padding:30px 5%;
+}
+
+#Profile-Photo img{
+    width:100px;
+    height:100px;
+}
+
+nav a{
+    display:inline-block;
+    margin:5px;
+}
+
+form input{
+    width:90%;
+}
+
+}
